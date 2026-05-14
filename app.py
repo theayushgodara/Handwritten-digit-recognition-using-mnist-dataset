@@ -1,4 +1,4 @@
-import streamlit as st
+imp
 import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
@@ -7,8 +7,6 @@ import base64
 # Load the pre-trained model
 model = load_model('mnist_cnn_model.h5')
 
-# Streamlit interface
-st.set_page_config(page_title="Handwritten Digit Recognition", layout="centered", initial_sidebar_state="collapsed")
 
 # Custom CSS for styling
 st.markdown("""
