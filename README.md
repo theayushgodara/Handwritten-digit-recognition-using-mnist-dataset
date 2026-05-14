@@ -3,8 +3,6 @@
 This is a machine learning based web application built using Python and Streamlit that allows users to upload images of handwritten digits and have them recognized by a pre-trained deep learning model. The model is trained on the MNIST dataset, which consists of 70,000 images of handwritten digits (60,000 for training and 10,000 for testing), with each image being 28x28 pixels in grayscale. The project includes two main components: training the CNN model and deploying the web application.
 
 
-## Live Link
-You can access the live web application [here](https://handwrittendigitrecognition.streamlit.app/).
 
 ## Project Structure
 
